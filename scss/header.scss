@@ -1,0 +1,25 @@
+header {
+  background-color: #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-family: monospace;
+  min-height: 50px;
+  padding: 1ch;
+  border-bottom: 2px solid #777;
+
+  a:hover {
+    // text-underline-offset: 0.51ch;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  img {
+    margin-right: 7px;
+  }
+}
